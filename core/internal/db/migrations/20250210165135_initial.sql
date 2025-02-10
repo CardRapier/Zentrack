@@ -55,7 +55,7 @@ CREATE TABLE habits (
     color VARCHAR NOT NULL,
     icon VARCHAR NOT NULL,
     min_frequency INTEGER,
-    notify_at TIME WITH TIMEZONE
+    notify_at TIMETZ
 );
 
 
